@@ -1,6 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 static char *fontfallbacks[] = {
+	"cascadiacode"
 	"dejavu sans",
 	"roboto",
 	"ubuntu",
@@ -9,13 +10,13 @@ static char *fontfallbacks[] = {
 #define FONTSZ(x) ((int)(10.0 * powf(1.1288, (x)))) /* x in [0, NUMFONTSCALES-1] */
 
 static const char *colors[] = {
-	"#000000", /* foreground color */
-	"#FFFFFF", /* background color */
+	"#FBFBFC", /* foreground color */
+	"#202A33", /* background color */
 };
 
 static const char *inverted_colors[] = {
-	"#FFFFFF", /* foreground color */
-	"#000000", /* background color */
+	"#202A33", /* foreground color */
+	"#FBFBFC", /* background color */
 };
 
 static const float linespacing = 1.4;
