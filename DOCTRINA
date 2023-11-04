@@ -1,0 +1,16 @@
+0. Sent
+Crea presentaciones desde archivos de texto.
+
+
+1. Diapositivas
+Cada diapositiva está formada por los párrafos separado por líneas vacías.
+- #: ignora la línea para no presentarla.
+- @: muestra una imagen en función de una ruta.
+- \: una diapositiva en blanco o ignora los caracteres iniciales especiales (# o @).
+
+2. Comandos
+- q: salir.
+- r: recargar diapositiva.
+- j|n|→: siguiente diapositiva.
+- k|p|←: anterior diapositiva.
+- i: cambiar tema.
